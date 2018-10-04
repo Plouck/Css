@@ -1,0 +1,23 @@
+section
+{   
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+
+    -webkit-column-rule: 2px dashed #555;
+    -moz-column-rule: 2px dashed #555;
+    column-rule: 2px dashed #555;
+
+    text-align: justify;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+section h1
+{
+    break-before: column;
+    -webkit-column-break-before: always;
+}
